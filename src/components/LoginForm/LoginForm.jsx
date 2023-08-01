@@ -1,6 +1,6 @@
 import { useState } from "react";
 import * as usersService from "../../utilities/users-service";
-import * as notesService from "../../utilities/notes-services";
+import * as notesService from "../../utilities/notes-service";
 
 export default function LoginForm({ setUser, setNotes }) {
   const [credentials, setCredentials] = useState({
